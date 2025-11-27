@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Travel Packing Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <i class="fas fa-suitcase"></i>
+        <span>Travel Packing AI</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Smart Travel Packing Assistant</h1>
+      <p>Your AI-powered companion for stress-free travel packing</p>
+    </header>
+
+    <div class="chat-container">
+      <div class="chat-messages" id="chat-messages">
+        <div class="message coach">
+          <p>Hello! I'm your Smart Travel Packing Assistant. I can help you:</p>
+          <ul>
+            <li>Create personalized packing lists</li>
+            <li>Suggest items based on your destination and weather</li>
+            <li>Provide travel tips and recommendations</li>
+            <li>Help with luggage organization</li>
+          </ul>
+          <p>Where are you traveling to, and for how long?</p>
+        </div>
+      </div>
+      <div class="input-area">
+        <textarea id="user-input" placeholder="Type your message here..."></textarea>
+        <button id="send-button">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="download-section">
+      <button id="download-list" class="download-btn">
+        <i class="fas fa-download"></i> Download Packing List
+      </button>
+    </div>
+
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <i class="fas fa-list-check"></i>
+          <h3>Smart Packing Lists</h3>
+          <p>Generate customized packing lists based on your trip details</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-cloud-sun"></i>
+          <h3>Weather-Based Suggestions</h3>
+          <p>Get packing recommendations based on destination weather</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-suitcase-rolling"></i>
+          <h3>Luggage Organization</h3>
+          <p>Learn efficient packing techniques and space-saving tips</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-passport"></i>
+          <h3>Travel Essentials</h3>
+          <p>Never forget important documents and travel necessities</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>We're dedicated to making your travel preparation stress-free with AI-powered packing assistance.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Travel Packing AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
